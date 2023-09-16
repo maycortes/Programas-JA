@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+         int Numero;
+         int res;
+        System.out.printf("Programa que calcule si un  numero es par o impar\n");
+        System.out.println("Ingresa un numero:");
+        Scanner numero = new Scanner(System.in);
+        Numero= numero.nextInt();
+         res = (Numero % 2);
+
+        if (res ==0) {
+            System.out.println("Es par");
+        }
+        else {
+            System.out.println("Es impar");
+
+        }
+    }
+}
